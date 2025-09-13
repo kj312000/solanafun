@@ -1,0 +1,47 @@
+{
+  "name": "solana-tipjar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "@solana/wallet-adapter-base": "^0.9.0",
+    "@solana/wallet-adapter-react": "^0.15.39",
+    "@solana/wallet-adapter-react-ui": "^0.9.39",
+    "@solana/wallet-adapter-wallets": "^0.19.0",
+    "@solana/web3.js": "^1.79.0",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-responsive": "^10.0.1",
+    "react-router-dom": "^7.9.1",
+    "three": "^0.164.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  },
+  "overrides": {
+    "qrcode.react": {
+      "react": "18.3.1",
+      "react-dom": "18.3.1"
+    },
+    "react-qr-reader": {
+      "react": "18.3.1",
+      "react-dom": "18.3.1"
+    }
+  }
+}
