@@ -12,7 +12,7 @@ const TIP_JAR_ADDRESS = new PublicKey(
   "HNy6JmksrCt3PhL3VGcqZ726NC5XnoEjuCa8cfZEQytN"
 );
 
-export default function TipJar() {
+export default function Tipjar() {
   const { connection } = useConnection();
   const { publicKey, sendTransaction, connected } = useWallet();
 
