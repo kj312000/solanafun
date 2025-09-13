@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "v20.18.0"
   ROLLUP_SKIP_NODEJS_NATIVE = "1"
 
 # Handle SPA routing (important for React + Solana wallet dapp)
