@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Tipjar from "./pages/Tipjar";
 import Leaderboard from "./pages/Leaderboard";
 import About from "./pages/About";
+import Tip from "./pages/Tip";
 
 export default function App() {
   return (
@@ -22,7 +22,7 @@ export default function App() {
               path="/tipjar"
               element={
                 <div className="h-full overflow-y-auto">
-                  <Tipjar />
+                  <Tip/>
                 </div>
               }
             />
